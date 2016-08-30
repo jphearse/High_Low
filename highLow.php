@@ -24,7 +24,6 @@ $nameOfUser = trim(fgets(STDIN));
 function highlow($argv, $min, $max, $nameOfUser){
 
 
-
 	$randomNumber = mt_rand($min,$max);  //random number between min and max
 	echo $randomNumber. PHP_EOL;	
 

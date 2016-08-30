@@ -14,10 +14,7 @@ function highlow(){
 	$maxRounds = 3;
 
 do {										//runs this loop while user guess does not equal the number
-	// $number = is_numeric($userGuess);
-	// if ($number == true){
 
-	}
 	if ( $userGuess < $randomNumber){
 		$count++;
 		echo 'HIGHER' . PHP_EOL;

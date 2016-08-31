@@ -25,7 +25,7 @@ function highlow($argv, $min, $max, $nameOfUser){
 
 
 	$randomNumber = mt_rand($min,$max);  //random number between min and max
-	echo $randomNumber. PHP_EOL;	
+	echo $randomNumber. PHP_EOL;	//prints out random number (for debugging purposes)
 
 
 	fwrite(STDOUT, "What is your guess, $nameOfUser?\n"); //takes users guess
